@@ -2,7 +2,7 @@ import './Item.scss';
 
 function Item(props) {
     return (
-        <div className="item__parent">
+        <div className={`item__parent ${props.className}`}>
             <div className="item__bg">
                 <img src={props.image} alt="bg-img" />
             </div>
